@@ -23,3 +23,8 @@ Route::get('/greet/{name}', function($sName) {
     $oGreetr = new Greetr();
     return $oGreetr->greet($sName);
 });
+
+Route::get('/{id}', function($id) {
+    $oGreetr = new Greetr();
+    return $oGreetr->demo($id);
+});
