@@ -1,0 +1,21 @@
+{
+    "name": "simplexi/greetr",
+    "description": "Greetr - A simple Laravel Package.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ankit"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Simplexi\\Greetr\\":"packages/simplexi/greetr/src/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "require": {}
+}
